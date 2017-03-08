@@ -1,0 +1,2 @@
+## Question 2
+Because these are short queries there arises the issue with eager loading vs lazy loading. Because of the several short queries there may be a n+1 problem which can cause a death by thousand queries which may significantly slow the loading. We can avoid this by eager loading and hydrating first which would avoid the n+1 problem. 
